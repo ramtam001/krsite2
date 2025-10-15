@@ -1,4 +1,4 @@
-/* Сброс стандартных отступов */
+
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@ body {
     line-height: 1.6;
 }
 
-/* Хэдер */
+
 header {
     background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
     display: flex;
@@ -70,7 +70,7 @@ header {
     background-clip: text;
 }
 
-/* Навигационное меню */
+
 .nav-menu {
     background: linear-gradient(135deg, #2c3e50, #4a6491);
     padding: 20px 0;
@@ -133,7 +133,7 @@ header {
     background: linear-gradient(145deg, #e74c3c, #c0392b);
 }
 
-/* Блок с фото и описанием */
+
 .top-block {
     display: flex;
     align-items: center;
@@ -177,7 +177,7 @@ header {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
-/* Блок с навыками */
+
 .skills-block {
     background: linear-gradient(135deg, #34495e, #2c3e50);
     padding: 40px 20px;
@@ -239,14 +239,14 @@ header {
     color: #ecf0f1;
 }
 
-/* Основной контент */
+
 .content {
     padding: 50px 20px;
     text-align: center;
     color: white;
 }
 
-/* Адаптивность */
+
 @media (max-width: 768px) {
     .hdd {
         max-width: 85%;
@@ -295,7 +295,7 @@ header {
         padding: 20px;
     }
 }
-/* Блок с лучшими проектами */
+
 .projects-block {
     background: linear-gradient(135deg, #2c3e50, #34495e);
     padding: 60px 20px;
@@ -378,7 +378,7 @@ header {
     color: #4ecdc4;
 }
 
-/* Адаптивность для проектов */
+
 @media (max-width: 1024px) {
     .projects-grid {
         grid-template-columns: repeat(2, 1fr);
@@ -413,7 +413,7 @@ header {
         font-size: 1.3em;
     }
 }
-/* Стили для страницы проектов */
+
 .projects-page {
     padding: 40px 20px;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -444,7 +444,7 @@ header {
     line-height: 1.6;
 }
 
-/* Фильтры категорий */
+
 .projects-categories {
     margin-bottom: 40px;
 }
@@ -479,7 +479,7 @@ header {
     color: white;
 }
 
-/* Сетка всех проектов */
+
 .all-projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -588,7 +588,7 @@ header {
     color: #4ecdc4;
 }
 
-/* Адаптивность для страницы проектов */
+
 @media (max-width: 768px) {
     .projects-page {
         padding: 20px 15px;
@@ -624,7 +624,7 @@ header {
         padding: 20px;
     }
 }
-/* Стили для контейнера изображения с описанием */
+
 .project-image-container {
     position: relative;
     height: 250px;
@@ -664,7 +664,7 @@ header {
     line-height: 1.4;
 }
 
-/* Эффекты при наведении */
+
 .project-card:hover .project-card-image {
     transform: scale(1.05);
 }
@@ -673,7 +673,7 @@ header {
     transform: translateY(0);
 }
 
-/* Адаптивность для новых стилей */
+
 @media (max-width: 768px) {
     .project-image-container {
         height: 200px;
@@ -693,7 +693,7 @@ header {
         font-size: 0.8em;
     }
 }
-/* Стили для страницы дневника */
+
 .diary-page {
     padding: 40px 20px;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -724,7 +724,7 @@ header {
     line-height: 1.6;
 }
 
-/* Контент дневника */
+
 .diary-content {
     max-width: 1200px;
     margin: 0 auto;
@@ -733,7 +733,7 @@ header {
     gap: 40px;
 }
 
-/* Секции дневника */
+
 .diary-section {
     background: linear-gradient(145deg, #465c7a, #3a506b);
     border-radius: 20px;
@@ -773,14 +773,13 @@ header {
     border-radius: 15px;
 }
 
-/* Контент секций */
 .section-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 25px;
 }
 
-/* Карточки дневника */
+
 .diary-card {
     background: linear-gradient(145deg, #3a506b, #2c3e50);
     border-radius: 15px;
@@ -836,7 +835,7 @@ header {
     font-weight: 500;
 }
 
-/* Блок планов */
+
 .plans-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -884,7 +883,7 @@ header {
     line-height: 1.4;
 }
 
-/* Адаптивность для дневника */
+
 @media (max-width: 1024px) {
     .section-content {
         grid-template-columns: 1fr;
@@ -928,7 +927,7 @@ header {
         font-size: 1.5em;
     }
 }
-/* Стили для страницы контактов */
+
 .contacts-page {
     padding: 40px 20px;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -959,7 +958,7 @@ header {
     line-height: 1.6;
 }
 
-/* Контейнер контактов */
+
 .contacts-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -968,7 +967,7 @@ header {
     margin: 0 auto 50px;
 }
 
-/* Стили формы */
+
 .form-card {
     background: linear-gradient(145deg, #465c7a, #3a506b);
     padding: 40px;
@@ -1057,7 +1056,7 @@ header {
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
 }
 
-/* Стили контактной информации */
+
 .contact-info {
     display: flex;
     flex-direction: column;
@@ -1125,7 +1124,7 @@ header {
     line-height: 1.5;
 }
 
-/* Дополнительная информация */
+
 .additional-info {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -1161,7 +1160,7 @@ header {
     margin: 0;
 }
 
-/* Адаптивность для контактов */
+
 @media (max-width: 1024px) {
     .contacts-container {
         grid-template-columns: 1fr;

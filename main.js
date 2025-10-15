@@ -1,19 +1,19 @@
-// Обработка формы на странице контактов
+
 document.addEventListener('DOMContentLoaded', function() {
-    // Форма обратной связи
+    
     const contactForm = document.querySelector('.contact-form');
     
     if (contactForm) {
         contactForm.addEventListener('submit', function(e) {
             e.preventDefault();
             
-            // Простая валидация формы
+           
             const name = document.getElementById('name').value;
             const email = document.getElementById('email').value;
             const comment = document.getElementById('comment').value;
             
             if (name && email && comment) {
-                // В реальном приложении здесь был бы AJAX запрос
+                
                 alert('Сообщение отправлено! Я свяжусь с вами в ближайшее время.');
                 contactForm.reset();
             } else {
@@ -21,7 +21,6 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
         
-        // Маска для телефона
         const phoneInput = document.getElementById('phone');
         if (phoneInput) {
             phoneInput.addEventListener('input', function(e) {
