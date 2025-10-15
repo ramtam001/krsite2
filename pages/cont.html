@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="../main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты - Мир мотыльков</title>
+</head>
+<body>
+    <header>
+        <div class="hdd">
+            <img src="../img/mainmot.jpg" alt="Дима флешь-рояль">
+            <h2>Дима флешь-рояль</h2>
+        </div>
+    </header>
+    
+    <nav class="nav-menu">
+        <div class="nav-container">
+            <a href="../index.html" class="nav-link">Главная страница</a>
+            <a href="cont.html" class="nav-link main-page">Контакты</a>
+            <a href="dnev.html" class="nav-link">Дневник</a>
+            <a href="project.html" class="nav-link">Проекты</a>
+        </div>
+    </nav>
+    
+    <div class="contacts-page">
+        <div class="contacts-header">
+            <h1>Свяжитесь со мной</h1>
+            <p>Есть вопросы или предложения? Заполните форму ниже и я обязательно вам отвечу!</p>
+        </div>
+        
+        <div class="contacts-container">
+            <div class="contact-form-container">
+                <div class="form-card">
+                    <h3>Форма обратной связи</h3>
+                    
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Ваше имя *</label>
+                            <input type="text" id="name" name="name" required placeholder="Введите ваше имя">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Электронная почта *</label>
+                            <input type="email" id="email" name="email" required placeholder="example@mail.com">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Номер телефона</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+7 (XXX) XXX-XX-XX">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="comment">Ваше сообщение *</label>
+                            <textarea id="comment" name="comment" required placeholder="Расскажите о вашем вопросе или предложении..." rows="5"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">
+                            Отправить сообщение
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="contact-info">
+                <div class="info-card">
+                    <h3>Контактная информация</h3>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-details">
+                            <h4>Электронная почта</h4>
+                            <p>dima.flash@pokerok.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div class="contact-details">
+                            <h4>Телефон</h4>
+                            <p>+7 (777) 222-01-22</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">🏫</div>
+                        <div class="contact-details">
+                            <h4>Университет</h4>
+                            <p>РТУ МИРЭА</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">🦋</div>
+                        <div class="contact-details">
+                            <h4>Интересы</h4>
+                            <p>Веб-разработка, кулинария, Мотыльковеденье</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="additional-info">
+            <div class="info-block">
+                <h3>Время ответа</h3>
+                <p>Быстрее скорости света</p>
+            </div>
+            
+            <div class="info-block">
+                <h3>Темы для обсуждения</h3>
+                <p>От науки до фильмов</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Подключаем JS файл -->
+    <script src="../main.js"></script>
+</body>
+</html>
